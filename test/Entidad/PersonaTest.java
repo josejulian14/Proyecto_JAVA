@@ -41,7 +41,7 @@ public class PersonaTest {
     /**
      * Test of getId method, of class Persona.
      */
-    @org.junit.Test
+    @Test
     public void testGetId() {
         System.out.println("getId");
         Persona instance = new Persona();
@@ -55,7 +55,7 @@ public class PersonaTest {
     /**
      * Test of setId method, of class Persona.
      */
-    @org.junit.Test
+    @Test
     public void testSetId() {
         System.out.println("setId");
         int id = 0;
@@ -68,7 +68,7 @@ public class PersonaTest {
     /**
      * Test of getNom method, of class Persona.
      */
-    @org.junit.Test
+    @Test
     public void testGetNom() {
         System.out.println("getNom");
         Persona instance = new Persona();
@@ -82,7 +82,7 @@ public class PersonaTest {
     /**
      * Test of setNom method, of class Persona.
      */
-    @org.junit.Test
+    @Test
     public void testSetNom() {
         System.out.println("setNom");
         String nom = "";
@@ -95,7 +95,7 @@ public class PersonaTest {
     /**
      * Test of getCorreo method, of class Persona.
      */
-    @org.junit.Test
+    @Test
     public void testGetCorreo() {
         System.out.println("getCorreo");
         Persona instance = new Persona();
@@ -109,7 +109,7 @@ public class PersonaTest {
     /**
      * Test of setCorreo method, of class Persona.
      */
-    @org.junit.Test
+    @Test
     public void testSetCorreo() {
         System.out.println("setCorreo");
         String correo = "";
@@ -122,7 +122,7 @@ public class PersonaTest {
     /**
      * Test of getNacio method, of class Persona.
      */
-    @org.junit.Test
+    @Test
     public void testGetNacio() {
         System.out.println("getNacio");
         Persona instance = new Persona();
@@ -136,7 +136,7 @@ public class PersonaTest {
     /**
      * Test of setNacio method, of class Persona.
      */
-    @org.junit.Test
+    @Test
     public void testSetNacio() {
         System.out.println("setNacio");
         String nacio = "";

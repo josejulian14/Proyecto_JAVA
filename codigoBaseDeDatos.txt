@@ -1,0 +1,22 @@
+CREATE TABLE `persona` (
+  `Id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `Nombres` varchar(244) DEFAULT NULL,
+  `Correo` varchar(244) DEFAULT NULL,
+  `Nacionalidad` varchar(244) DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+INSERT INTO `persona` (`Id`, `Nombres`, `Correo`, `Nacionalidad`) VALUES
+('1', 'Leonel Messi', 'leonelmessi@gmail.com', 'Argentina'),
+('2', 'Cristiano Ronaldo', 'cristianoronaldo@gmail.com', 'Portugal'),
+('3', 'Ronaldinho Gaucho del Rio', 'ronaldinhogr@gmail.com', 'Brasil'),
+('4', 'Pablo Guerrero', 'pabloguerrero@gmail.com', 'Peru');
+
+
+Hecho con xampp
+mysql
